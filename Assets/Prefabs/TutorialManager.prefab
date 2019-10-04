@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4366401559564940810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4366401559564940808}
+  - component: {fileID: 4366401559564940811}
+  m_Layer: 0
+  m_Name: TutorialManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4366401559564940808
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4366401559564940810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 82.0293, y: 47.728657, z: 100.045685}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4366401559564940811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4366401559564940810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a8dc9c39e46424993468be262ac766, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tutorialInfo: {fileID: 0}
+  messages:
+  - "Bienvenido al tutorial de VRazo, aqu\xED aprender\xE1s a manejar un brazo rob\xF3tico
+    de una manera r\xE1pida y sencilla.\n\nPara empezar, mira durante 2 segundos el
+    bot\xF3n de continuar, as\xED ser\xE1 para cada paso."
+  - Lo primero que tienes que hacer es asegurarte de tener tu joystick en el modo
+    VR. Si no es el caso, pulsa @ + C.
+  - "\xA1Estupendo! Es el momento de manejar, el brazo. Mueve el joystick a la derecha
+    o a la izquierda para girar la base."
+  - "\xA1Bien hecho! Ahora, mueve el joystick abajo o arriba para mover el brazo superior
+    del robot."
+  - "Ahora, mueve el brazo inferior del brazo pulsando A para moverlo hacia delante
+    y B hacia atr\xE1s."
+  - "\xA1Ya lo manejas mejor que yo! Intenta seguir la l\xEDnea que aparece en la
+    placa met\xE1lica."
+  - 
+  - 
+  - 
+  - 
